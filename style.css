@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  font-size: 1.7em;
+  text-align: right;
+}
+main {
+  border-radius: 0.5em;
+  box-shadow: 0 0 5px #000;
+  padding: 0.5em;
+}
+img {
+  height: auto;
+  width: auto;
+  max-width: 30em;
+  min-width: 10em;
+  margin: 1em auto;
+  border-radius: 0.5em;
+  box-shadow: 0 0 5px #000;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  width: min-content;
+  align-items: center;
+}
+.google-icon {
+  max-width: 10em;
+  box-shadow: none;
+}
+.comment {
+  font-size: 0.7em;
+  color: rgb(34, 34, 34);
+}
+code {
+  background-color: rgb(218, 218, 218);
+  padding: 0 0.3em;
+}
+footer {
+  width: 100%;
+  height: 10%;
+  padding: 1.3em 0;
+  background-color: rgb(39, 39, 39);
+  color: aliceblue;
+}
+.footer-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-content: center;
+  width: 23%;
+  justify-content: space-evenly;
+}

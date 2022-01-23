@@ -64,3 +64,27 @@ footer {
   width: 23%;
   justify-content: space-evenly;
 }
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 1.5em;
+  }
+  .opening {
+    padding: 0.5em;
+  }
+  img {
+    max-width: 15em;
+    min-width: 4em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  .google-icon {
+    max-width: 4em;
+  }
+  .footer-content {
+    width: 65%;
+  }
+}
